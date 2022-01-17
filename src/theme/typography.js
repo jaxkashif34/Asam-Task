@@ -41,13 +41,13 @@ const typography = {
     fontWeight: 700,
     lineHeight: 1.5,
     fontSize: pxToRem(24),
-    ...responsiveFontSizes({ sm: 26, md: 30, lg: 32 }),
+    ...responsiveFontSizes({ sm: 28, md: 35, lg: 36 }),
   },
   h4: {
-    fontWeight: 700,
+    fontWeight: 500,
     lineHeight: 1.5,
     fontSize: pxToRem(20),
-    ...responsiveFontSizes({ sm: 20, md: 24, lg: 24 }),
+    ...responsiveFontSizes({ sm: 18, md: 22, lg: 22 }),
   },
   h5: {
     fontWeight: 700,
@@ -84,16 +84,16 @@ const typography = {
     fontSize: pxToRem(12),
   },
   overline: {
-    fontWeight: 700,
+    fontWeight: 500,
     lineHeight: 1.5,
-    fontSize: pxToRem(12),
+    fontSize: pxToRem(19),
     letterSpacing: 1.1,
-    textTransform: "uppercase",
+    textTransform: "normal",
   },
   button: {
-    fontWeight: 700,
+    fontWeight: 500,
     lineHeight: 24 / 14,
-    fontSize: pxToRem(14),
+    fontSize: pxToRem(13),
     textTransform: "capitalize",
   },
 };
